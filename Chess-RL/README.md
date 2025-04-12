@@ -1,10 +1,15 @@
 # Chess AI with Reinforcement Learning
 
 ## Overview
-This project fine-tunes reinforcement learning (RL) models to play chess using Stable-Baselines3 (SB3) and OpenSpiel(WIP). It targets a 2–3 hour training window on an NVIDIA RTX 4070 SUPER GPU, focusing on DQN, PPO, A2C, and an AlphaZero-inspired approach(WIP). The framework includes a custom chess environment, neural network policies, RL training, and an interactive play interface with visual board display.
+### V2
+This project fine-tunes reinforcement learning (RL) models to play chess using Stable-Baselines3 (SB3) and OpenSpiel(WIP). It targets a 2–3 hour training window on an NVIDIA RTX 4070 SUPER GPU, focusing on DQN, PPO, A2C, and an AlphaZero-inspired approach(WIP). 
+### V3
+RL algorithms implemented from scratch also AlphaZero (Not using OpenSpiel, instead a simplified MCTS).
+Now the game is using Jupyter widgets for a better UI during gameplay.
+The framework includes a custom chess environment, neural network policies, RL training, and an interactive play interface with visual board display.
 
 ## Table of Contents
-
+## V2 Structure
 ### 1. Project Setup
 - **Purpose**: Installs dependencies and configures the GPU environment.
 - **File**: `Cell 1` in Jupyter notebook.
